@@ -9,6 +9,8 @@ import { Error404Component } from './components/pages/error404/error404.componen
 import { MainComponent } from './components/layouts/main/main.component';
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
+import { CatalogueComponent } from './components/pages/catalogue/catalogue.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,10 +20,12 @@ import { FooterComponent } from './components/layouts/footer/footer.component';
     Error404Component,
     MainComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CatalogueComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
