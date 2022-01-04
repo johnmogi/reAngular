@@ -1,1 +1,13 @@
 <p>catalogue works!</p>
+
+
+<ul *ngFor="let a of albums">
+    <li>
+        {{ a._id }} <br/>
+        {{ a.albumName }} <br/>
+        {{ a.albumImage }} <br/>
+        {{ a.artist }} <br/>
+        {{ a.date }}
+
+    </li>
+</ul>

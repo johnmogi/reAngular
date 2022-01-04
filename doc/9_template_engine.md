@@ -1,0 +1,1 @@
+*ngFor="let a of albums"

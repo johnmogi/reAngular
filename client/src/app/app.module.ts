@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/layouts/header/header.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { CatalogueComponent } from './components/pages/catalogue/catalogue.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ItemComponent } from './components/pages/item/item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     MainComponent,
     HeaderComponent,
     FooterComponent,
-    CatalogueComponent
+    CatalogueComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,

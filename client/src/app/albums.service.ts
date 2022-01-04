@@ -12,4 +12,9 @@ export class AlbumsService {
   public getAllAlbums(): Observable<AlbumModel[]> {
     return this.http.get<AlbumModel[]>(this.myApi + "albums");
   }
+
+  
+  public addOneAlbum(albumForm: any) {
+    return this.http.post<any>(this.myApi + 'add-album', albumForm);
+  }
 }
