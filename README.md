@@ -1,6 +1,8 @@
 # reAngular
 
-missing parts:
+Hi there, in this project I'm reviewing a full stack:
+FE - angular with tallywind using daisyUi
+Be- MongoDb using nodeJs
 
-tallywind
-nodeJs server MongoDb
+next: services, observables binding forms etc.
+
